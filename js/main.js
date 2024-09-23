@@ -171,13 +171,3 @@ document.getElementById('donation-btn').addEventListener('click', function(){
     sectionOne.classList.remove('hidden');
     footer.classList.remove('hidden');
 });
-
-//Home page Button 
-document.getElementById("button-blog").addEventListener('click', function(){
-   window.location.href = "/blog.html";
-});
-
-//Blog page Button
-document.getElementById("button-home").addEventListener('click', function(){
-    window.location.href = "/index.html";
- });
