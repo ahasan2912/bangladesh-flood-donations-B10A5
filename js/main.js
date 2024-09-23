@@ -55,6 +55,9 @@ document.getElementById('donate-one').addEventListener('click', function () {
             <p>${d}</p>
         `;
         sectionTwo.appendChild(div);
+
+        const modal = document.getElementById('my_modal_1');
+        modal.showModal()
     }
 });
 
@@ -95,6 +98,9 @@ document.getElementById('donate-two').addEventListener('click', function () {
             <p>${d}</p>
         `;
         sectionTwo.appendChild(div);
+
+        const modal = document.getElementById('my_modal_2');
+        modal.showModal()
     }
 });
 
@@ -135,6 +141,9 @@ document.getElementById('donate-three').addEventListener('click', function () {
             <p>${d}</p>
         `;
         sectionTwo.appendChild(div);
+
+        const modal = document.getElementById('my_modal_3');
+        modal.showModal()
     }
 });
 
@@ -162,3 +171,13 @@ document.getElementById('donation-btn').addEventListener('click', function(){
     sectionOne.classList.remove('hidden');
     footer.classList.remove('hidden');
 });
+
+//Home page Button 
+document.getElementById("button-blog").addEventListener('click', function(){
+   window.location.href = "/blog.html";
+});
+
+//Blog page Button
+document.getElementById("button-home").addEventListener('click', function(){
+    window.location.href = "/index.html";
+ });
