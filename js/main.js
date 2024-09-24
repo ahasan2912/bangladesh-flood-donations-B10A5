@@ -30,8 +30,8 @@ document.getElementById('donate-one').addEventListener('click', function () {
         document.getElementById('text-input-1').value = '';
         return
     }
-    else if (inputValueNumber < 0) {
-        alert("Negative Amount never Donate");
+    else if (inputValueNumber < 1) {
+        alert("Invalid! Amount must be greater than Zero");
         document.getElementById('text-input-1').value = '';
         return
     }
@@ -73,8 +73,8 @@ document.getElementById('donate-two').addEventListener('click', function () {
         document.getElementById('text-input-2').value = '';
         return
     }
-    else if (inputValueNumber < 0) {
-        alert("Negative Amount never Donate");
+    else if (inputValueNumber < 1) {
+        alert("Invalid! Amount must be greater than Zero");
         document.getElementById('text-input-2').value = '';
         return
     }
@@ -116,8 +116,8 @@ document.getElementById('donate-three').addEventListener('click', function () {
         document.getElementById('text-input-3').value = '';
         return
     }
-    else if (inputValueNumber < 0) {
-        alert("Negative Amount never Donate");
+    else if (inputValueNumber < 1) {
+        alert("Invalid! Amount must be greater than Zero");
         document.getElementById('text-input-3').value = '';
         return
     }
